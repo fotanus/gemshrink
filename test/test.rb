@@ -13,4 +13,6 @@ module M
   end
 end
 
-M::A.x
+M::A.x(foo,bar) do |x|
+  x + 3
+end
